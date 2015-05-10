@@ -1,0 +1,20 @@
+﻿Build started 11/10/2013 9:17:49 AM.
+     1>Project "C:\Users\Ben\Documents\Visual Studio 2012\Projects\hw3\hw3\hw3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Ben\Documents\Visual Studio 2012\Projects\hw3\hw3\/FreeImage" /I"C:\Users\Ben\Documents\Visual Studio 2012\Projects\hw3\hw3\/glm" /I"C:\Users\Ben\Documents\Visual Studio 2012\Projects\hw3\hw3\/glm-0.9.2.7" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\hw3.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt hw3.cpp readfile.cpp
+         readfile.cpp
+     1>c:\users\ben\documents\visual studio 2012\projects\hw3\hw3\transform.h(18): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\ben\documents\visual studio 2012\projects\hw3\hw3\readfile.cpp(176): error C2065: 'maxdepth' : undeclared identifier
+         hw3.cpp
+     1>c:\users\ben\documents\visual studio 2012\projects\hw3\hw3\hw3.cpp(18): error C2065: 'WIDTH' : undeclared identifier
+     1>c:\users\ben\documents\visual studio 2012\projects\hw3\hw3\hw3.cpp(18): error C2065: 'HEIGHT' : undeclared identifier
+     1>c:\users\ben\documents\visual studio 2012\projects\hw3\hw3\hw3.cpp(23): error C2065: 'WIDTH' : undeclared identifier
+     1>c:\users\ben\documents\visual studio 2012\projects\hw3\hw3\hw3.cpp(24): error C2065: 'HEIGHT' : undeclared identifier
+     1>c:\users\ben\documents\visual studio 2012\projects\hw3\hw3\hw3.cpp(26): error C2065: 'WIDTH' : undeclared identifier
+     1>c:\users\ben\documents\visual studio 2012\projects\hw3\hw3\hw3.cpp(27): error C2065: 'HEIGHT' : undeclared identifier
+         Generating Code...
+     1>Done Building Project "C:\Users\Ben\Documents\Visual Studio 2012\Projects\hw3\hw3\hw3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.11

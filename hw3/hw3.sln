@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hw3", "hw3\hw3.vcxproj", "{D440B6D8-E79F-44FB-9888-3F85E3963C4B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FreeImage", "FreeImage\FreeImage.vcxproj", "{16AD87C5-E96F-4391-AFED-0375140F3EE4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glm", "glm\glm.vcxproj", "{D3B45506-1557-4C56-8B24-288BC9A70922}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D440B6D8-E79F-44FB-9888-3F85E3963C4B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D440B6D8-E79F-44FB-9888-3F85E3963C4B}.Debug|Win32.Build.0 = Debug|Win32
+		{D440B6D8-E79F-44FB-9888-3F85E3963C4B}.Release|Win32.ActiveCfg = Release|Win32
+		{D440B6D8-E79F-44FB-9888-3F85E3963C4B}.Release|Win32.Build.0 = Release|Win32
+		{16AD87C5-E96F-4391-AFED-0375140F3EE4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{16AD87C5-E96F-4391-AFED-0375140F3EE4}.Debug|Win32.Build.0 = Debug|Win32
+		{16AD87C5-E96F-4391-AFED-0375140F3EE4}.Release|Win32.ActiveCfg = Release|Win32
+		{16AD87C5-E96F-4391-AFED-0375140F3EE4}.Release|Win32.Build.0 = Release|Win32
+		{D3B45506-1557-4C56-8B24-288BC9A70922}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D3B45506-1557-4C56-8B24-288BC9A70922}.Debug|Win32.Build.0 = Debug|Win32
+		{D3B45506-1557-4C56-8B24-288BC9A70922}.Release|Win32.ActiveCfg = Release|Win32
+		{D3B45506-1557-4C56-8B24-288BC9A70922}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
