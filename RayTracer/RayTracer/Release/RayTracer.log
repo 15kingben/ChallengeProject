@@ -1,0 +1,48 @@
+﻿Build started 1/13/2014 7:36:16 PM.
+     1>Project "C:\Users\Ben\Documents\Visual Studio 2012\Projects\RayTracer\RayTracer\RayTracer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Ben\Documents\Visual Studio 2012\Projects\RayTracer\RayTracer\/glm-0.9.2.7" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Circle.cpp Light.cpp main.cpp parser.cpp Ray.cpp Scene.cpp shape.cpp Transform.cpp Triangle.cpp
+         Camera.cpp
+         Circle.cpp
+         Light.cpp
+         main.cpp
+     1>c:\users\ben\documents\visual studio 2012\projects\raytracer\raytracer\Transform.h(18): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>main.cpp(123): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(124): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(125): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(144): warning C4244: '=' : conversion from 'double' to 'BYTE', possible loss of data
+     1>main.cpp(145): warning C4244: '=' : conversion from 'double' to 'BYTE', possible loss of data
+     1>main.cpp(146): warning C4244: '=' : conversion from 'double' to 'BYTE', possible loss of data
+     1>main.cpp(203): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>main.cpp(222): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         parser.cpp
+     1>c:\users\ben\documents\visual studio 2012\projects\raytracer\raytracer\Transform.h(18): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>parser.cpp(144): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Ray.cpp
+         Scene.cpp
+         shape.cpp
+         Transform.cpp
+     1>c:\users\ben\documents\visual studio 2012\projects\raytracer\raytracer\Transform.h(18): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>Transform.cpp(38): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Transform.cpp(47): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+         Triangle.cpp
+     1>Triangle.cpp(155): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ben\Documents\Visual Studio 2012\Projects\RayTracer\Release\RayTracer.exe" /NOLOGO FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ben\Documents\Visual Studio 2012\Projects\RayTracer\Release\RayTracer.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ben\Documents\Visual Studio 2012\Projects\RayTracer\Release\RayTracer.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         Release\Circle.obj
+         Release\Light.obj
+         Release\main.obj
+         Release\parser.obj
+         Release\Ray.obj
+         Release\Scene.obj
+         Release\shape.obj
+         Release\Transform.obj
+         Release\Triangle.obj
+         Generating code
+         Finished generating code
+         RayTracer.vcxproj -> C:\Users\Ben\Documents\Visual Studio 2012\Projects\RayTracer\Release\RayTracer.exe
+     1>Done Building Project "C:\Users\Ben\Documents\Visual Studio 2012\Projects\RayTracer\RayTracer\RayTracer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.98
